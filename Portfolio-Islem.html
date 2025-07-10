@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Islem Abassi | Développeur Web</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+ <link href="portfolio-islem.css" rel="stylesheet">
+  <style>
+    * { 
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+    body {
+      background-color: #fefefe;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #f9f1e7;
+      padding: 2rem;
+      text-align: center;
+      border-bottom: 4px solid #e1c699;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+    }
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    h2 {
+      font-size: 2rem;
+      color: #c28b00;
+      margin-bottom: 1rem;
+    }
+    ul li {
+      margin-bottom: 0.5rem;
+    }
+    .form-group {
+      margin-bottom: 1rem;
+    }
+    label {
+      display: block;
+      margin-bottom: 0.5rem;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 0.7rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    button {
+      background-color: #c28b00;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      background-color: #f9f1e7;
+      border-top: 4px solid #e1c699;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Islem Abassi</h1>
+    <p>Jeune développeur passionné par le web, autodidacte, prêt à bosser en freelance ou en Allemagne.</p>
+  </header>
+
+  <section id="about">
+    <h2>À propos</h2>
+    <p>Je suis basé à Ben Arous, Tunisie. Mon objectif est de construire des sites modernes, propres et performants. Je continue à apprendre chaque jour pour m'améliorer.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Compétences</h2>
+    <ul>
+      <li>HTML5</li>
+      <li>CSS3</li>
+      <li>JavaScript (JS)</li>
+      <li>Python</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projets</h2>
+    <p>Aucun projet en ligne pour l'instant. Je travaille actuellement sur mes premiers projets personnels.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <form action="mailto:islemabassi99@gmail.com" method="post" enctype="text/plain">
+      <div class="form-group">
+        <label for="name">Nom :</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="message">Message :</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+      </div>
+      <button type="submit">Envoyer</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Islem Abassi. Tous droits réservés.</p>
+  </footer>
+</body>
+</html>
